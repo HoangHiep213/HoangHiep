@@ -4,31 +4,31 @@
         <title>Offers</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/test.css">
         <link rel="stylesheet" href="./themify-icons-font/themify-icons/themify-icons.css">
     </head>
 
     <body>
-        <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 601px; width: 923.2px;">
-            <img class="parallax-slider" src="./img/siler_img_heading.jpg" style="transform: translate3d(-382px, 0px, 0px); position: absolute; height: 601px; width: 1689px; max-width: none;">
-        </div>
+        <!-- <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 601px; width: 923.2px;">
+            <img class="parallax-slider" src="./img/siler-img-heading.jpg" style="transform: translate3d(-382px, 0px, 0px); position: absolute; height: 601px; width: 1689px; max-width: none;">
+        </div> -->
 
         <div class="header">
-            <div class="nav_logo">
+            <div class="nav-logo">
                 <div class="logo">
                     <img src="./img/logo.png" alt="">
                 </div>
-                <div class="logo_name_container">
-                    <div class="logo_name">
+                <div class="logo-name-container">
+                    <div class="logo-name">
                         destino
                     </div>
-                    <div class="logo_text">
+                    <div class="logo-text">
                         travel agency
                     </div>
                 </div>
             </div>
-            <div class="nav_container">
+            <div class="nav-container">
                 <div>
                     <ul class="">
                         <li><a href="#">Home</a></li>
@@ -46,12 +46,12 @@
 
         <!-- Phần slider -->       
         <div class="slider">
-            <div class="slider_container">
-                <div class="text_content">
-                    <h2 class="text_heading">Offers</h2>
-                    <div class="text_description">
+            <div class="slider-container">
+                <div class="text-content">
+                    <h2 class="text-heading">Offers</h2>
+                    <div class="text-description">
                         <ul>
-                            <li class="text_home"><a href="#">Home</a></li>
+                            <li class="text-home"><a href="#">Home</a></li>
                             <li><a href="#">/ Offers</a></li>
                         </ul>
                     </div>
@@ -61,56 +61,242 @@
 
         <!-- Phần Find -->
         <div class="find">
-            <div class="find_background_container prlx_parent">
-                <div class=" prlx_parent"></div>
+            <div class="find-background-container prlx-parent">
+                <div class=" prlx-parent"></div>
             </div>
 
-            <div class="find_container">
-                <div class="col_12">
-                    <div class="text_heading">
+            <div class="find-container">
+                <div class="col-12">
+                    <div class="text-heading">
                         Find the Adventure of a lifetime
                     </div>
                 </div>
-                <div class="col_123">
-                    <div class="find_form_container">
-                        <form action="#" id="find_form" class="find_form_item">
-                            <div class="find_item">
+                <div class="col-123">
+                    <div class="find-form-container">
+                        <form action="#" id="find-form" class="find-form-item">
+                            <div class="find-item">
                                 <div>Destination:</div>
-                                <input type="text" class="destination find_input" required="" placeholder="Keyword here">
+                                <input type="text" class="destination find-input" required="" placeholder="Keyword here">
                             </div>
-                            <div class="find_item">
+                            <div class="find-item">
                                 <div>Adventure type:</div>
-                                <select name="adventure" id="adventure" class="dropdown_item_select find_input" placeholder="Categories">
-                                    <option>Categories</option>
-                                    <option>Categories</option>
-                                    <option>Categories</option>
+                                <select name="adventure" id="adventure" class="dropdown-item-select find-input" placeholder="Categories">
+                                    <option>Romantic</option>
+                                    <option>risky</option>
+                                    <option>discovers</option>
                                 </select>
                             </div>
-                            <div class="find_item">
+                            <div class="find-item">
                                 <div>Min price</div>
-                                <select name="min_price" id="min_price" class="dropdown_item_select find_input">
+                                <select name="min-price" id="min-price" class="dropdown-item-select find-input">
                                     <option>&nbsp;</option>
-                                    <option>Price</option>
-                                    <option>Price</option>
+                                    <option>300$</option>
+                                    <option>400$</option>
                                 </select>
                             </div>
-                            <div class="find_item">
+                            <div class="find-item">
                                 <div>Max price</div>
-                                <select name="max_price" id="max_price" class="dropdown_item_select find_input">
+                                <select name="max-price" id="max-price" class="dropdown-item-select find-input">
                                     <option>&nbsp;</option>
-                                    <option>Price</option>
-                                    <option>Price</option>
+                                    <option>1000$</option>
+                                    <option>2000$</option>
                                 </select>
                             </div>
-                            <div class="find_tet"> Find </div>
+                            <div class="find-tet"> Find </div>
                         </form>
                         <div class="clear"></div>
                     </div>
                 </div>
             </div>
         </div>
+
+
         <div class="content">
-            
+            <div class="content-container">
+                <div class="content-row">
+                    <div class="content-text-heading">
+                        <h2>Top destinations in Europe</h2>
+                        <p>TAKE A LOOK AT THESE OFFERS</p>
+                    </div>
+                </div>
+
+                <div class="content-row filtering-row">
+                    <div class="content-col">
+                        <div class="content-sorting-group-1">
+                            <ul class="sorting-item">
+                                <li>
+                                    <span class="sorting-text">Filter by</span>
+                                    <i class="ti-angle-down"></i>
+
+                                    <ul class="sorting-item-menu" >
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;original-order&quot; }"><span>Show All</span></li>
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;price&quot; }"><span>Price</span></li>
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;name&quot; }"><span>Name</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="sorting-text">Start</span>
+                                    <i class="ti-angle-down"></i>
+
+                                    <ul class="sorting-item-menu" >
+                                        <li class="item-filter-btn" data-filter="*"><span>Show All</span></li>
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;stars&quot; }"><span>Ascending</span></li>
+                                        <li class="item-filter-btn" data-filter=".rating-1"><span>1</span></li>
+                                        <li class="item-filter-btn" data-filter=".rating-2"><span>2</span></li>
+                                        <li class="item-filter-btn" data-filter=".rating-3"><span>3</span></li>
+                                        <li class="item-filter-btn" data-filter=".rating-4"><span>4</span></li>
+                                        <li class="item-filter-btn" data-filter=".rating-5"><span>5</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="sorting-text">Price</span>
+                                    <i class="ti-angle-down"></i>
+
+                                    <ul class="sorting-item-menu" >
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;original-order&quot; }"><span>Default</span></li>
+                                        <li class="item-sorting-btn" data-isotope-option="{ &quot;sortBy&quot;: &quot;price&quot; }"><span>Price</span></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span class="sorting-text">Facility</span>
+                                    <i class="ti-angle-down"></i>
+
+                                    <ul class="sorting-item-menu" >
+                                        <li><span>Facility</span></li>
+                                        <li><span>Facility</span></li>
+                                        <li><span>Facility</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="content-sorting-group-2">
+                            <ul>
+                                <li>Airplane X</li>
+                                <li>5 stars X</li>
+                                <li>Romantic X</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-row">
+                    <div class="content-col">
+                        <div class="item-clearfix-container" style="position:relative; height:1420px;">
+                            <div class="item-clearfix-section img-number-1">
+                                <div class="item-img-section">
+                                    <img src="./img/hanoi.jpg" alt="" class="item-image-section">
+                                </div>
+                                <div class="item-content-section rating-5">
+                                    <div class="item-price">From $900</div>
+                                    <div class="item-title">Ha Noi</div>
+                                    <ul>
+                                        <li>1 person / </li>
+                                        <li>4 nights / </li>
+                                        <li>3 star hotel</li>
+                                    </ul>
+                                    <div class="item-rating-5">
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                    </div> 
+                                    <div class="item-document">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.
+                                    </div>
+                                    <div class="item-more-link">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-clearfix-section img-number-2">
+                                <div class="item-img-section">
+                                    <img src="./img/danang.jpg" alt="" class="item-image-section">
+                                </div>
+                                <div class="item-content-section rating-5">
+                                    <div class="item-price">From $1200</div>
+                                    <div class="item-title">Golden Bridge - Da Nang</div>
+                                    <ul>
+                                        <li>1 person / </li>
+                                        <li>4 nights / </li>
+                                        <li>3 star hotel</li>
+                                    </ul>
+                                    <div class="item-rating-5">
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                    </div> 
+                                    <div class="item-document">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.
+                                    </div>
+                                    <div class="item-more-link">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-clearfix-section img-number-3">
+                                <div class="item-img-section">
+                                    <img src="./img/quangninh.jpg" alt="" class="item-image-section">
+                                </div>
+                                <div class="item-content-section rating-5">
+                                    <div class="item-price">From $1000</div>
+                                    <div class="item-title">Ha Long Bay - Quang Ninh</div>
+                                    <ul>
+                                        <li>1 person / </li>
+                                        <li>4 nights / </li>
+                                        <li>3 star hotel</li>
+                                    </ul>
+                                    <div class="item-rating-5">
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                    </div> 
+                                    <div class="item-document">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.
+                                    </div>
+                                    <div class="item-more-link">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-clearfix-section img-number-4">
+                                <div class="item-img-section">
+                                    <img src="./img/quangnam.jpg" alt="" class="item-image-section">
+                                </div>
+                                <div class="item-content-section rating-5">
+                                    <div class="item-price">From $500</div>
+                                    <div class="item-title">Hoi An Ancient Town - Quang Nam</div>
+                                    <ul>
+                                        <li>1 person / </li>
+                                        <li>4 nights / </li>
+                                        <li>3 star hotel</li>
+                                    </ul>
+                                    <div class="item-rating-5">
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                        <i class="ti-star" ></i>
+                                    </div> 
+                                    <div class="item-document">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce fringilla lectus nec diam auctor, ut fringilla diam sagittis. Quisque vel est id justo faucibus dapibus id a nibh. Aenean suscipit consequat lacus, sit amet mollis nulla. Morbi sagittis orci id lacus convallis tempus eget sit amet metus.
+                                    </div>
+                                    <div class="item-more-link">
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="content-row">
+                    
+                </div>
+            </div>
+            <div class="clear"></div>
         </div>
 
 
