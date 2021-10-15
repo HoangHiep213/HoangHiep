@@ -476,11 +476,6 @@ a{
     list-style-type: none;
 }
 
-/* .content .sorting-item li:hover {
-    background-color: rgb(226, 97, 97);
-    color: #fff;
-}  */
-
 .content .sorting-item li:hover .sorting-item-menu {
     display: block;
     
@@ -791,7 +786,6 @@ a{
 
 /* phần cuối */
 .footer{
-
     position: relative;
     background-color: #131a2f;
     width: 100%;
