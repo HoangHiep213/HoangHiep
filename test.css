@@ -49,6 +49,7 @@ body{
 a{
     text-decoration: none;
 }
+
 .header{
     position:fixed;
     top: 40px;
@@ -65,18 +66,23 @@ a{
     height:100px;
     transition: all 0.5s ease-in-out; 
 }
-.header .nav-logo{
-    position: absolute;
+
+.header-nav-logo{
+    position:absolute
+}
+
+.nav-logo{
     top: 15px;
     left: 40px;
 }
-.header .logo-name{
+.logo-name{
+    color: #FFFFFF;
     text-transform: uppercase;
     font-size: 24px;
     font-weight:500;
     line-height: 0.75;
 }
-.header .logo-text{
+.logo-text{
     text-transform: uppercase;
     font-size: 9px;
     color: #929292;
@@ -141,7 +147,7 @@ a{
 .slider{
     position: relative;
     width:100%;
-    background: url('/baocao/img/siler_img_heading.jpg') top center / cover no-repeat ;
+    background: url('/baocao/img/siler-img-heading.jpg') top center / cover no-repeat ;
     top: 0;
     left: 0;
     overflow: hidden;
@@ -356,14 +362,16 @@ a{
 /* Phần nội dung */
 .content {
     width:100%;
+    height: 2400px;
     padding-bottom: 144px;
     
 }
 
 .content-container {
     max-width: 100%;
-    margin-left: 98px;
-    margin-right: 98px;
+    height:100%;
+    margin-left: 169px;
+    margin-right: 169px;
 }
 
 .content .content-row {
@@ -529,7 +537,7 @@ a{
 /* phần giới thiệu */
 .content .item-clearfix-container {
     position: relative;
-    height: 1400px;
+    height: 1700px;
     zoom: 1;
     
 }
@@ -545,21 +553,23 @@ a{
 }
 
 .img-number-2 {
-    top: 25%;
+    top: 420px;
 }
 
 .img-number-3 {
-    top: 50%;
+    top: 840px;
 }
 
 .img-number-4 {
-    top: 75%;
+    top: 1260px;
 }
 
 
 .content .item-img-section {
-    width: 25%;
+    width: 25% ;
     float:left;
+    width: 285px;
+    height: 390px;
 }
 
 .content .item-img-section .item-image-section {
@@ -654,8 +664,163 @@ a{
     color:#eb344a;
 }
 
+.content .content-pages {
+    margin-top: 24px;
+}
+
+.content .content-pages ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.content .content-pages .page {
+    display: inline-block;
+}
+
+
+.content .content-pages .page a {
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight:400;
+    outline: 2px ridge rgba(77, 130, 223, 0.6);
+    border-radius: 2rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.content-pages .active a {
+    color:  #e44f60 !important;
+    background-color: rgb(221, 221, 221) !important;
+}
+
+.content .content-pages .page a:hover {
+    opacity: 0.8;
+    color: #e44f60;
+}   
+
+
+/* phần nhập email */
+.newsletter {
+    position: relative;
+    width: 100%;
+    height: 374px;
+    padding-top: 108px;
+    padding-bottom: 113px;
+}
+
+.newsletter-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background-image: url('https://preview.colorlib.com/theme/destino/images/xnewsletter.jpg.pagespeed.ic.X2-TPwZCdW.webp')
+}
+
+.newsletter-container {
+    position: relative;
+    margin: 0 170px;
+    padding: 0 15px;
+}
+
+.newsletter-content {      
+    color: #fff;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-title {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.newsletter-form-container {
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.newsletter-import {
+    display: flex !important;
+    flex-direction: row !important;
+    align-content: center !important;
+    justify-content: space-between!important;
+}
+
+#newsletter-input {
+    width: calc(100% - 180px);
+    height: 56px;
+    border: solid 2px rgba(255,255,255,.5);
+    outline: none;
+    background: transparent;
+    padding-left: 31px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.newsletter-button {
+    width: 161px;
+    height: 56px;
+    vertical-align: top;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #fe364a;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.newsletter .newsletter-import button:hover {
+    opacity: 0.8;
+}
 
 
 
 
 
+
+/* phần cuối */
+.footer{
+
+    position: relative;
+    background-color: #131a2f;
+    width: 100%;
+    height: 60vh;
+}
+.footer-container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .footer-container .footer-information{
+    height: 80%;
+    width: 30%;
+    border: solid 2px rgba(255,255,255,.5);
+}
+.footer .footer-container .footer-news{
+    height: 80%;
+    width: 30%;
+    border: solid 2px rgba(255,255,255,.5);
+}
+.footer .footer-container .footer-news img{
+    height:78px;
+    width: 78px;
+}
+.footer .footer-container .footer-tag{
+    height: 80%;
+    width: 30%;
+    border: solid 2px rgba(255,255,255,.5);
+}
